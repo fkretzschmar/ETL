@@ -1,0 +1,2 @@
+= Table.AddColumn(#"Tipo Alterado3", "FaixaEtária", each if [Idade] = null then "N/A" else if [Idade] <= 24 then "0 - 24" else if [Idade] <= 34 then "25 - 34" 
+else if [Idade] <= 44 then "35 - 44" else if [Idade] <= 54 then "45 - 54" else "55 +")
