@@ -1,0 +1,17 @@
+*Se necessário filtre a coluna Extension, para os arquivos de excel.
+"Cuidado com o flegue (Use o nome da coluna original como prefixo) não flegue o mesmo"
+
+1º Crie uma Coluna Personalizada
+
+Nome da coluna : Conteúdo
+
+Fórmula de coluna personalizada:
+= Excel.Workbook([Content])
+
+2º Página Inicial > Escolher Colunas
+-Name
+-Conteúdo
+
+3º Expandir a coluna Conteúdo e escolhe apelas (Data)
+
+4º Expandir novamente deixando selecionado todas as colunas. (OK)
