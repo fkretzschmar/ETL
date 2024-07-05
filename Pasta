@@ -1,4 +1,9 @@
 *Se necessário filtre a coluna Extension, para os arquivos de excel.
+Coluna(Name) -> Filtros de Texto -> Começa com
+Manter linhas em que 'Name'
+-não começa com:  ~
+
+
 "Cuidado com o flegue (Use o nome da coluna original como prefixo) não flegue o mesmo"
 
 1º Crie uma Coluna Personalizada
